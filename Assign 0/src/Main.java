@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         Shape shape = new Shape("Jeff the shape");
         Square square = new Square("Fredrick the square");
         Circle circle = new Circle("Saoirse the circle");
         Triangle triangle = new Triangle("Jes the Triangle");
-        EquilateralTriangle equilateralTriangle = new EquilateralTriangle("Bronwyn the shape");
+        EquilateralTriangle equilateralTriangle = new EquilateralTriangle("Bronwyn the EquilateralTriangle");
 
         Shape[] shapes = {shape, square, circle, triangle, equilateralTriangle};
 
@@ -16,9 +16,6 @@ public class Main {
         System.out.println(" Enter Square height: ");
         double value2 = scan.nextDouble();
         square.setDimensions(value1, value2);
-
-        System.out.println(" Enter Circle radius: ");
-        circle.setDimensions(scan.nextDouble());
 
         System.out.println(" Enter Circle radius: ");
         circle.setDimensions(scan.nextDouble());
