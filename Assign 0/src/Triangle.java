@@ -16,7 +16,7 @@ public class Triangle extends Shape{
         System.out.println("side A: " + sideA + ", side B: " + sideB + ", side C: " + sideC);
     }
     public double getArea() {
-        double s = sideA*sideB*sideC;
+        double s = sideA*sideB*sideC/2;
         return Math.sqrt(s*(s-sideA)*(s-sideB)*(s-sideC));
     }
 }
