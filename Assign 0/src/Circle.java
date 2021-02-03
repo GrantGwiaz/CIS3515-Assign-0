@@ -3,7 +3,7 @@ public class Circle extends Shape{
     public Circle(String name) {
         super(name);
     }
-    public void setDimensions() {
+    public void setDimensions(double radius) {
         this.radius = radius;
     }
     @Override

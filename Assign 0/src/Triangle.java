@@ -17,6 +17,7 @@ public class Triangle extends Shape{
     }
     public double getArea() {
         double s = sideA*sideB*sideC/2;
-        return Math.sqrt(s*(s-sideA)*(s-sideB)*(s-sideC));
+        return Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+
     }
 }
